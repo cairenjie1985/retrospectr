@@ -3,7 +3,7 @@ package me.caixin.retrospectr.proxy.staticProxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class RealSubject implements ProxySubject {
+public class RealSubject implements Subject {
 
     private static final Logger logger = LoggerFactory.getLogger(RealSubject.class);
 
